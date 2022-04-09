@@ -1,9 +1,10 @@
 import React from "react";
 import HeroStyles from "./Hero.css";
+import Fade from "../Fade"
 
 export default function Hero() {
   return (
-    <section className="hero-container">
+    <section className="hero-container panel" data-color="green">
       <div className="title-holder">
         <p className="title">
             Hi, I'm Alistair Houghton

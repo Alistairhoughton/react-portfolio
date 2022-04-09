@@ -8,11 +8,7 @@ body {
   /* panel styles */
   .panel {
     /* min height incase content is higher than window height */
-    min-height: 100vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: sans-serif;
+    height: 100vh;
     /* outline: 10px solid hotpink; */
     /* turn above on to see the edge of panels */
   }

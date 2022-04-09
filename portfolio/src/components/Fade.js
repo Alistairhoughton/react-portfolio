@@ -1,6 +1,7 @@
 import $ from 'jquery';
 
-$(window).scroll(function() {
+const FadeCode = () => {
+  $(window).scroll(function() {
   
     // selectors
     var $window = $(window),
@@ -29,3 +30,8 @@ $(window).scroll(function() {
     });    
     
   }).scroll();
+}
+
+
+
+  export default FadeCode;
