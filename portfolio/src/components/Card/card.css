@@ -1,0 +1,54 @@
+.card-container {
+    height: 230px;
+    width: 400px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 35px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: ease-in-out 0.15s;
+}
+
+.card-container:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+}
+
+
+
+
+.card-github, .card-deployment {
+    color: black;
+    transition: ease-in-out 0.15s;
+    
+}
+
+.card-github:hover, .card-deployment:hover {
+    color: rgb(255, 255, 255);
+    
+}
+
+.icon-holder {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20px;
+    width: 100%;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+.tech-holder {
+    border-top: 0.5px solid rgba(82, 82, 82, 0.404);
+    padding-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.card-description {
+    font-size: 1rem;
+}

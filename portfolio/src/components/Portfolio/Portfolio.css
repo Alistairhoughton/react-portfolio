@@ -1,5 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@700&display=swap");
+
 .portfolio-container {
- height: 100vh;
- width: 100%;
- /* background-color: coral; */
+  height: 110vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+  gap: 30px;
+}
+
+
+.portfolio-card-container {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.portfolio-title-holder {
+    width: 100%;
+    display: flex;
+    padding-left: 9%;
+    
+}
+
+.portfolio-title {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    color: black;
+    font-family: "Andada Pro", serif;
+    font-weight: 400;
+    font-size: 50px;
 }
