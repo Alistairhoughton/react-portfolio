@@ -36,3 +36,7 @@
   width: 100%;
 
 }
+
+.active {
+  color: rgb(69, 209, 76);
+}

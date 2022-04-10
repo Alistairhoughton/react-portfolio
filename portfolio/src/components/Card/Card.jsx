@@ -11,10 +11,10 @@ function Card(props) {
       <h2 className="card-title">{props.name}</h2>
       <p className="card-description">{props.description}</p>
       <div className="icon-holder">
-        <a href={props.github} className="card-github">
+        <a href={props.github} target="_blank" className="card-github">
           <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href={props.deployment} className="card-deployment">
+        <a href={props.deployment} target="_blank" className="card-deployment">
           <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
         </a>
       </div>

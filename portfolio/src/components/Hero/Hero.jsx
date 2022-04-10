@@ -6,6 +6,7 @@ export default function Hero() {
   return (
     <section className="hero-container">
       <div className="title-holder">
+        
         <p className="title">
             Hi, I'm Alistair Houghton
         </p>
