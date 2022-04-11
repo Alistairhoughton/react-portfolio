@@ -1,6 +1,6 @@
 {
 
-  "homepage": "https://Alistairhoughton.github.io/react-portfolio",
+  "homepage": "https://alistairhoughton.github.io/",
 
   "name": "portfolio",
 
@@ -39,6 +39,9 @@
   },
 
   "scripts": {
+    "predeploy": "npm run build",
+
+    "deploy": "gh-pages -d build",
 
     "start": "react-scripts start",
 
@@ -46,11 +49,8 @@
 
     "test": "react-scripts test",
 
-    "eject": "react-scripts eject",
+    "eject": "react-scripts eject"
 
-    "predeploy": "npm run build",
-
-    "deploy": "gh-pages -d build"
   },
 
   "eslintConfig": {
