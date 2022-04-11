@@ -1,44 +1,42 @@
 [
     {
         "name": "Instagrub",
-        "description": "A recipe sharing application for home chefs and food lovers.",
-        "github": "https://github.com/mattglwilliams/instagrub",
+        "description": "A social media app built for food lovers and home chefs to share recipes.",
+        "github": "https://github.com/Alistairhoughton/Instagrub",
         "deployment": "https://instagrub2022.herokuapp.com/",
         "tech": "Express.js, Node.js, Sequelize & MySQL, Multer, Handlebars"
       },
       {
         "name": "Space Explorer",
-        "description": "A recipe sharing application for home chefs and food lovers.",
-        "github": "https://github.com/mattglwilliams/instagrub",
-        "deployment": "https://instagrub2022.herokuapp.com/",
-        "tech": "Express.js, Node.js, Sequelize & MySQL, Multer, Handlebars"
+        "description": "An immersive and interactive space exploration app.",
+        "github": "https://github.com/Alistairhoughton/Space-Explorer",
+        "deployment": "https://alistairhoughton.github.io/Space-Explorer/",
+        "tech": "HTML, CSS, REST API"
       },
       {
-        "name": "Space Explorer1",
-        "description": "A recipe sharing application for home chefs and food lovers.",
-        "github": "https://github.com/mattglwilliams/instagrub",
-        "deployment": "https://instagrub2022.herokuapp.com/",
-        "tech": "Express.js, Node.js, Sequelize & MySQL, Multer, Handlebars"
+        "name": "Weather Dashbord",
+        "description": "A weather dashboard using the Open Weather API.",
+        "github": "https://github.com/Alistairhoughton/WeatherApp",
+        "deployment": "https://alistairhoughton.github.io/WeatherApp/",
+        "tech": "HTML, CSS, REST API"
       },
       {
-        "name": "Space Explorer2",
-        "description": "A recipe sharing application for home chefs and food lovers.",
-        "github": "https://github.com/mattglwilliams/instagrub",
-        "deployment": "https://instagrub2022.herokuapp.com/",
-        "tech": "Express.js, Node.js, Sequelize & MySQL, Multer, Handlebars"
+        "name": "Tech Blog",
+        "description": "A fullstack Blog application implementing Sequelize",
+        "github": "https://github.com/Alistairhoughton/tech-blog",
+        "deployment": "https://github.com/Alistairhoughton/tech-blog",
+        "tech": "Express.js, Node.js, Sequelize & MySQL"
       },
       {
-        "name": "Space Explorer3",
-        "description": "A recipe sharing application for home chefs and food lovers.",
-        "github": "https://github.com/mattglwilliams/instagrub",
-        "deployment": "https://instagrub2022.herokuapp.com/",
-        "tech": "Express.js, Node.js, Sequelize & MySQL, Multer, Handlebars"
+        "name": "Team Profile Generator",
+        "description": "Node application which generates a professional team profile page.",
+        "github": "https://github.com/Alistairhoughton/team-profile-generator",
+        "tech": "Node.js, JavaScript, HTML, CSS"
       },
       {
-        "name": "Space Explorer4",
-        "description": "A recipe sharing application for home chefs and food lovers.",
-        "github": "https://github.com/mattglwilliams/instagrub",
-        "deployment": "https://instagrub2022.herokuapp.com/",
-        "tech": "Express.js, Node.js, Sequelize & MySQL, Multer, Handlebars"
+        "name": "Employee Management System",
+        "description": "A CLI which manages an employee database",
+        "github": "https://github.com/Alistairhoughton/employee-manager",
+        "tech": "Node.js, JavaScript"
       }
 ]

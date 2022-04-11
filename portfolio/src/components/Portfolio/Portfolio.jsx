@@ -9,7 +9,7 @@ export default function Portfolio() {
   const [cardList, setSelectedCard] = useState(portfolioData);
   return (
     <div className='portfolio-container'>
-      <section className="card-container-main"></section>
+      
       
       <section className="portfolio-card-container">
       <div className="portfolio-title-holder">
