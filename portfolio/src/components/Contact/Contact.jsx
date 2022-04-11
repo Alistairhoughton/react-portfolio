@@ -9,7 +9,7 @@ export default function Contact() {
     <section className='contact-container'>
     <div className='contact-content-holder'>
       <h2 className='contact-title'>Say hello!</h2>
-    <p className='email-el'><a className='email-el' href="alistair.g.houghton@gmail.com">alistair.g.houghton@gmail.com</a></p>
+    <p className='email-el'><a className='email-el' href="mailto:alistair.g.houghton@gmail.com">alistair.g.houghton@gmail.com</a></p>
     <p className='socials'>
 
       <a className='link-el' href="https://github.com/Alistairhoughton"><FontAwesomeIcon icon={faGithub} /></a>

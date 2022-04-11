@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@700&display=swap");
 
-
-
 .portfolio-container {
   min-height: 100vh;
   height: auto;
@@ -15,42 +13,39 @@
   gap: 30px;
 }
 
-
 .portfolio-card-container {
-    width: 85%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 80px;
-    
+  width: 85%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px;
 }
 
 .portfolio-title-holder {
-    width: 100%;
-    display: flex;
-    padding-left: 9%;
-    
+  width: 100%;
+  display: flex;
+  padding-left: 9%;
 }
 
 .portfolio-title {
-    margin-top: 20px;
-    padding-bottom: 30px;
-    color: black;
-    font-family: "Andada Pro", serif;
-    font-weight: 400;
-    font-size: 50px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  color: black;
+  font-family: "Andada Pro", serif;
+  font-weight: 400;
+  font-size: 50px;
 }
 
 @media screen and (max-width: 1300px) {
-    .portfolio-container {
-        height: auto;
-    }
+  .portfolio-container {
+    height: auto;
+  }
 
-    .portfolio-card-container {
-        padding-top: 65px;
-        padding-bottom: 50px;
-        gap: 30px;
-    }
- }
+  .portfolio-card-container {
+    padding-top: 115px;
+    padding-bottom: 50px;
+    gap: 30px;
+  }
+}

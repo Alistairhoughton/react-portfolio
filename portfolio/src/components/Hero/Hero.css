@@ -40,7 +40,8 @@
   .title-holder {
     align-items: flex-start;
     margin: 0;
-    padding-left: 100px;
+    padding-left: 15%;
+    width: 90%;
   }
 
 .title {

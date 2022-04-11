@@ -37,6 +37,20 @@
 
 }
 
-.active {
-  color: rgb(69, 209, 76);
+
+.TopBar {
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .TopBar {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .nav-bar {
+    visibility: hidden;
+    opacity: 0;
+  }
 }

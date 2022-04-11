@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <MobileNav />
-      {/* <Navbar /> */}
+      <MobileNav className="mobile-nav" />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/portfolio" element={<Portfolio />} />
