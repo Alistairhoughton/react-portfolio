@@ -84,18 +84,21 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: #71d6c2;
+  background-color: rgb(238, 85, 85);
+  border: 1px solid rgba(0, 0, 0, 0.452);
   padding: 5px 20px 10px 20px;
   border-radius: 10px;
   font-size: 1.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .cross-styles {
   padding: 2px;
 }
 .burger-styles {
-    padding: 1px;
-  }
+  padding: 1px;
+}
 
 @media screen and (max-width: 450px) {
   .mobile-nav-link-holder {
