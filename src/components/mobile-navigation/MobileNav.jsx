@@ -15,7 +15,7 @@ export default function MobileNav() {
     <nav className="mobileNavContainer">
       <nav className="TopBar">
         <div className="mobile-logo-container">
-          <NavLink to="/">A</NavLink>
+          <NavLink to="/react-portfolio">A</NavLink>
         </div>
         <div onClick={menuHandler} className="mobile-burger-container">
           {toggle ? <img className="cross-styles" src={Cross} alt="" /> : <img className="burger-styles" src={Burger} alt="" />}
@@ -24,7 +24,7 @@ export default function MobileNav() {
       {toggle ? (
         <div className="mobileNavMenu open">
           <div className="mobile-nav-link-holder">
-            <NavLink to="/" activeclassname="active">
+            <NavLink to="/react-portfolio" activeclassname="active">
               Home
             </NavLink>
             <NavLink to="/about" activeclassname="active">

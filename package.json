@@ -1,6 +1,6 @@
 {
 
-  "homepage": "https://alistairhoughton.github.io/",
+  "homepage": "https://alistairhoughton.github.io/react-portfolio/",
 
   "name": "portfolio",
 
@@ -39,6 +39,7 @@
   },
 
   "scripts": {
+
     "predeploy": "npm run build",
 
     "deploy": "gh-pages -d build",

@@ -15,7 +15,7 @@ function App() {
       <MobileNav className="mobile-nav" />
       <Navbar />
       <Routes>
-        <Route path="/" element={<Hero />} />
+        <Route path="/react-portfolio" element={<Hero />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />

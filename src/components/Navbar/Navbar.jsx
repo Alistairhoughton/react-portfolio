@@ -7,10 +7,10 @@ export default function Navbar() {
   return (
     <nav className="nav-bar">
       <div className="logo-container">
-      <NavLink to="/">A</NavLink>
+      <NavLink to="/react-portfolio">A</NavLink>
       </div>
       <div className="nav-container">
-      <NavLink to="/"  activeclassname="active">Home</NavLink>
+      <NavLink to="/react-portfolio"  activeclassname="active">Home</NavLink>
       <NavLink to="/about"  activeclassname="active">About</NavLink>
       <NavLink to="/portfolio" activeclassname="active">Projects</NavLink>
       <NavLink to="/contact" activeclassname="active">Contact</NavLink>
