@@ -24,19 +24,19 @@ export default function MobileNav() {
       {toggle ? (
         <div className="mobileNavMenu open">
           <div className="mobile-nav-link-holder">
-            <NavLink to="/react-portfolio" activeclassname="active">
+            <NavLink to="/react-portfolio" activeclassname="active" onClick={menuHandler}>
               Home
             </NavLink>
-            <NavLink to="/about" activeclassname="active">
+            <NavLink to="/about" activeclassname="active" onClick={menuHandler}>
               About
             </NavLink>
-            <NavLink to="/portfolio" activeclassname="active">
+            <NavLink to="/portfolio" activeclassname="active" onClick={menuHandler}>
               Projects
             </NavLink>
             <NavLink
               className="mobileContact"
               to="/contact"
-              activeclassname="active"
+              activeclassname="active" onClick={menuHandler}
             >
               Contact
             </NavLink>
