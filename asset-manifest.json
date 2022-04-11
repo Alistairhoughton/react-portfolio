@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.421c5d00.css",
-    "main.js": "/static/js/main.27fdda6a.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/hamburger.svg": "/static/media/hamburger.e6838af1fe0b4119f19e349778211cad.svg",
-    "static/media/cross.svg": "/static/media/cross.0cf5b748a1656bebdb0453664ff48830.svg",
-    "index.html": "/index.html",
-    "main.421c5d00.css.map": "/static/css/main.421c5d00.css.map",
-    "main.27fdda6a.js.map": "/static/js/main.27fdda6a.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/react-portfolio/static/css/main.421c5d00.css",
+    "main.js": "/react-portfolio/static/js/main.7b475101.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/hamburger.svg": "/react-portfolio/static/media/hamburger.e6838af1fe0b4119f19e349778211cad.svg",
+    "index.html": "/react-portfolio/index.html",
+    "static/media/cross.svg": "/react-portfolio/static/media/cross.0cf5b748a1656bebdb0453664ff48830.svg",
+    "main.421c5d00.css.map": "/react-portfolio/static/css/main.421c5d00.css.map",
+    "main.7b475101.js.map": "/react-portfolio/static/js/main.7b475101.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.421c5d00.css",
-    "static/js/main.27fdda6a.js"
+    "static/js/main.7b475101.js"
   ]
 }
