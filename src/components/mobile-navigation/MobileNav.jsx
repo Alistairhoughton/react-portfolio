@@ -9,6 +9,7 @@ export default function MobileNav() {
 
   const menuHandler = () => {
     setToggle(!toggle);
+   
   };
 
   return (
@@ -21,9 +22,8 @@ export default function MobileNav() {
           {toggle ? <img className="cross-styles" src={Cross} alt="" /> : <img className="burger-styles" src={Burger} alt="" />}
         </div>
       </nav>
-      {toggle ? (
-        <div className="mobileNavMenu">
-          <div className="mobile-nav-link-holder open">
+        <div className={ toggle ? "mobileNavMenu-open" : "mobileNavMenu-closed"}>
+          <div id="mob-Nav" className={ toggle ? "mobile-nav-link-holder-open" : "mobile-nav-link-holder-closed"}>
             <NavLink to="/react-portfolio"  onClick={menuHandler}>
               Home
             </NavLink>
@@ -42,9 +42,6 @@ export default function MobileNav() {
             </NavLink>
           </div>
         </div>
-      ) : (
-        <div></div>
-      )}
     </nav>
   );
 }
