@@ -21,6 +21,8 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 80px;
+  max-width: 1632px;
+  margin: auto;
 }
 
 .portfolio-title-holder {
