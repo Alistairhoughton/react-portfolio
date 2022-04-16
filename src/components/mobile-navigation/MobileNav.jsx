@@ -22,15 +22,15 @@ export default function MobileNav() {
         </div>
       </nav>
       {toggle ? (
-        <div className="mobileNavMenu open">
-          <div className="mobile-nav-link-holder">
-            <NavLink to="/react-portfolio" activeclassname="active" onClick={menuHandler}>
+        <div className="mobileNavMenu">
+          <div className="mobile-nav-link-holder open">
+            <NavLink to="/react-portfolio"  onClick={menuHandler}>
               Home
             </NavLink>
-            <NavLink to="/about" activeclassname="active" onClick={menuHandler}>
+            <NavLink to="/about" onClick={menuHandler}>
               About
             </NavLink>
-            <NavLink to="/portfolio" activeclassname="active" onClick={menuHandler}>
+            <NavLink to="/portfolio"  onClick={menuHandler}>
               Projects
             </NavLink>
             <NavLink
